@@ -16,10 +16,10 @@
 @import url(animate.min.css);
 @import url(normalize.css);
 @import url(icomoon.css);
-@import url(css/font-awesome.min.css);
+/* @import url(css/font-awesome.min.css); */
 @import url(meanmenu.css);
 @import url(owl.carousel.min.css);
-@import url(swiper.min.css);
+/* @import url(swiper.min.css); */
 @import url(slick.css);
 @import url(jquery.fancybox.min.css);
 @import url(jquery-ui.css);
@@ -199,13 +199,17 @@ blockquote {
 }
 
 .ime_firme {
+     /* width: 100%; */
+	/* float: left; */
      font-size: 3rem;
      font-weight: 800;
      color:#fefeff ;
 }
 
 .ime_slova {
-     font-size: 2.3rem;
+     /* width: 100%; */
+	/* float: left; */
+     font-size: 3rem;
      color: #000000;
      font-weight: 600;
 }
@@ -525,7 +529,7 @@ button {
 .contact_section{
 	width: 100%;
 	float: left;
-	background-color: #33dcac;
+	background-color: #33a6dc;
 	height: auto;
 	margin-top: 180px;
 
@@ -549,6 +553,7 @@ button {
     border-radius: 30px;
     padding: 15px 0px;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .download_text a{ color: #ffffff; }
@@ -564,7 +569,7 @@ button {
 .email_text {
     width: 100%;
     float: left;
-    background-color: #3d3d3d;
+    background-color: #028c59;
     padding: 25px;
 }
 
@@ -604,6 +609,31 @@ button {
     padding: 15px;
     border-radius: 30px;
 }
+
+
+
+.square-holder {
+     padding:15px;
+     border: 1px solid #cecece;
+     /* align-items: center; */
+     display:flex;
+     align-items: center;
+     justify-content: center;
+     margin-bottom:10px;
+     background-color:#f1f1f1;
+     min-height:150px
+   }
+   
+   .square-holder img {
+     max-width:100%;
+     filter: grayscale(50%);
+     transition: all 0.3s;
+     height:100px
+   }
+   
+   .square-holder:hover img{
+     filter:none;
+   }
 
 .main_bt a{ color: #ffffff; }
 .main_bt a:hover{ color: #000000; }
